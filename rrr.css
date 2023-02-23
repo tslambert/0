@@ -1,0 +1,335 @@
+
+ @font-face {
+    font-family: 'ibm_plex_monoregular';
+    src: url('fnt/ibmplexmono-regular-webfont.woff2') format('woff2'),
+         url('fnt/ibmplexmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'arvoitalic';
+    src: url('fnt/arvo-italic-webfont.woff2') format('woff2'),
+         url('fnt/arvo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('fnt/arvo-regular-webfont.woff2') format('woff2'),
+         url('fnt/arvo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+      body {
+
+       background:  #ffd5e0; 
+        #max-width: 48em;
+	#padding: 2em 5% 0;
+ 
+        font-size: 17px;
+        line-height: 1.5;
+        font-weight: 400;
+      	font-family: 'arvoregular', 'IBM Plex Serif', 'Roboto Slab', 'DejaVu Serif', 'Open Sans', 'Lucida Console', 'Lucida Sans Typewriter', 'Letter Gothic', sans-serif;
+      }
+      
+      
+      h1, h2, .h1, .h2 {
+        font-weight: 400;
+        line-height: 1.25;
+        margin-top: .5em;
+      }
+      
+      h1, .h1 {
+        font-size: 28px;
+      }
+      
+      
+      
+      
+      
+      p, ul, ol { margin-top: 1em; }
+      
+            @media screen and (min-width: 480px) {
+              h1, .h1 { font-size: 48px; }
+              h2, .h2 { font-size: 32px; }
+              h3, .h3 { font-size: 24px; }
+#              p, .p, ul, ol { font-size: 20px;}
+#              small, .small { font-size: 16px;}
+            }
+            
+            @media screen and (min-width: 640px) {
+              h1, .h1 { font-size: 64px; }
+              h2, .h2 { font-size: 48px; } 
+              h3, .h3 { font-size: 32px; }
+	      
+            }
+      
+      
+       p.points {
+        font-size: 80%;
+      }
+
+       .wrap {
+        width: 90%;
+        padding: 0 5%;
+        max-width: 48em;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+
+      article {
+        margin-top: 4em;
+      }
+      
+      a {
+        color: black;
+        text-decoration: underline;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a.nohover:hover {
+	text-decoration: none;
+	}
+      
+      
+      .logo {
+        float: left;
+        margin-right: 1em;
+      }
+      
+      
+      a.post-title:hover {
+        text-decoration: none;
+        color: {color:Link};
+      }
+      
+           
+      .quote blockquote {
+        padding: 0;
+        border: none;
+        font-style: italic;
+      }
+      
+      .quote .source {
+        text-align: right;
+      }
+      
+    
+      footer.wrap {
+        padding-top: 2em;
+        padding-bottom: 2em;
+      }
+      
+      ul.pages {
+        list-style: none;
+      }
+      
+      ul.pages li {
+        display: inline-block;
+        margin-right: 1em;        
+      }
+      
+      ul.pages li a {
+        display: block;
+        height: 3em;
+        line-height: 3em;
+      }
+      
+	@media screen and (min-width: 640px) {
+		.narrow {
+	      		width:75%;padding:0 5%;margin:0 auto;align:center;
+      			}	
+	
+		.gap {
+			padding-top: 3vh	
+		}
+		d {
+			float:left;
+			width:20%;
+		}
+  	.big {
+	display:inline-block;
+  }
+
+  .small {
+	display:none
+  }
+        header h1, header p.hed {
+
+	font-size: 58px;
+	margin-top: 1.5em;
+      }
+
+}
+	@media screen and (max-width: 640px) {
+		.narrow {
+			align:center;
+		}
+		
+		.gap {
+		}
+
+		d {
+			float:none;
+			width:100%;
+			align:center;
+
+		}
+	}
+
+      span.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+		  
+
+	
+	header {
+
+		font-family: "ibm_plex_monoregular";
+		font-weight: 400;
+		font-size: 38px;
+		margin-bottom: 5vh;
+
+	}
+	 header a:hover {
+        text-decoration: none;
+      }
+     
+      footer {
+	font-family: "ibm_plex_monoregular";
+	margin: 4em 1em;
+	text-align: center;
+	color: darkblue;
+	}
+
+	.centre {
+		text-align: center
+	}
+
+
+	.right {
+		text-align: right
+	}
+
+	.left {
+		text-align: left
+	}
+
+	.hed {
+		font-family: "ibm_plex_monoregular";
+		text-decoration: underline;
+		font-size:30px;
+		color: darkblue;
+		margin-top: 3em;
+	}
+
+	p.hed a {
+		color: darkblue;
+	}
+
+	.mb {
+		margin-bottom:8vh;
+	}
+	
+	.mb4 {
+		margin-bottom:4vh;
+	}
+
+	.ml {
+		margin-left:2vw;
+	}
+	
+	.ml4 {
+		margin-left:4vw;
+	}
+	
+      .mtz {
+	margin-top: 0px
+	}
+      
+      .mbz {
+	margin-bottom: 0px
+	}
+	
+	.bold {
+	font-weight:bold;
+	}
+
+	.ital {
+	font-family: arvoitalic
+}
+
+	.attrib {
+	margin-left:2vw;
+	font-size: 0.9em
+
+}
+
+.shift {
+
+    height:auto;
+    float:right;
+    margin-right:0;
+    margin-left:2vw;
+    margin-bottom:8vh
+}
+
+
+@media screen and (max-width: 670px)   {
+header, .shift, .left, .right, .hed {
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+        float:none;
+	align:center;
+	text-align:left;
+  }   
+
+  
+
+ header p.hed, p#books {
+	 text-align:center;
+ }
+
+ img.shift {
+	  text-align:center;
+	  margin-left: 35%;
+	  margin-right: 35%;
+	  width:30%;
+	  
+  }
+
+  
+  .big {
+	display:none;
+  }
+
+  .small {
+	display:inline-block
+  }
+        p:not(.hed) a {
+        color: black;
+        text-decoration: underline solid black 10%;
+      }
+
+   .attrib {
+	   font-size: 0.8em
+   }
+
+}
+
