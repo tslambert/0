@@ -30,6 +30,13 @@
 
 }
 
+@font-face {
+    font-family: 'radiocanada';
+    src: url('fnt/RadioCanada[wdth,wght].woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
       body {
 
@@ -40,7 +47,7 @@
         font-size: 17px;
         line-height: 1.5;
         font-weight: 400;
-      	font-family: 'arvoregular', 'IBM Plex Serif', 'Roboto Slab', 'DejaVu Serif', 'Open Sans', 'Lucida Console', 'Lucida Sans Typewriter', 'Letter Gothic', sans-serif;
+      	font-family: 'radiocanada', 'IBM Plex Serif', 'Roboto Slab', 'DejaVu Serif', 'Open Sans', 'Lucida Console', 'Lucida Sans Typewriter', 'Letter Gothic', sans-serif;
       }
       
       
